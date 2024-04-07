@@ -329,4 +329,32 @@ public class RentACatIntegrationTest {
 		// TODO: Fill in
 	}
 
+	@Test
+	public void testRenameNumCat3() {
+		// TODO: Fill in
+		// try{
+		// 		Cat mockCat1 = Mockito.mock(Cat.class);
+		// 	    Cat mockCat2 = Mockito.mock(Cat.class);
+		// 	    Cat mockCat3 = Mockito.mock(Cat.class);
+		
+		// 	    // Create a RentACat instance using Mockito
+		// 	    RentACat r = RentACat.createInstance(InstanceType.MOCK);
+		
+		// 	    // Add mock cats to RentACat
+		// 	    r.addCat(mockCat1);
+		// 	    r.addCat(mockCat2);
+		// 	    r.addCat(mockCat3);
+		
+		// 	    // Invoke the method under test
+		// 	    assertTrue(r.renameCat(2, "Garfield"));
+		
+		// 	    // Verify that the renameCat method was called with the correct arguments
+		// 	    Mockito.verify(mockCat2).renameCat("Garfield");
+		
+		// 	} catch (Exception e) {
+		// 	    // Handle exceptions
+		// 	    fail();
+		// 	}
+
+	}
 }

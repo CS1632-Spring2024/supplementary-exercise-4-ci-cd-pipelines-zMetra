@@ -345,6 +345,213 @@ public class RentACatUnitTest {
 	 * sample_code/junit_example/LinkedListUnitTest.java in the course repository to
 	 * see examples.
 	 */
+	@Test
+	public void testRenameNumCat3() {
+		// TODO: Fill in
 	
+	// try {
+    //     // Add cats to RentACat
+    //     // r.addCat(c1);
+    //     // r.addCat(c2);
+    //     // r.addCat(c3);
+
+      
+    //     assertTrue(r.renameCat(2, "Garfield"));
+
+       
+    //     Mockito.verify(c2).renameCat("Garfield");
+
+    // } catch (Exception e) {
+    //     // Handle exceptions
+    //     fail();
+    // }
+			
+			
+	}
+
+	/**
+	 * Test case for boolean rentCat(int id).
+	 * 
+	 * <pre>
+	 * Preconditions: c1, c2, and c3 are added to r using addCat(Cat c).
+	 * Execution steps: Call rentCat(2).
+	 * Postconditions: Return value is true.
+	 *                 c2 is rented as a result of the execution steps.
+	 *                 System output is "Old Deuteronomy has been rented." + newline
+	 * </pre>
+	 * 
+	 * Hint: You may need to use behavior verification for this one. See
+	 * sample_code/junit_example/LinkedListUnitTest.java in the course repository to
+	 * see examples.
+	 */
+	@Test
+	public void testRentCatNumCats3() {
+		// TODO: Fill in
+		
+		
+			// r.addCat(c1);
+			// r.addCat(c2);
+			// r.addCat(c3);
+	
+			// boolean result = r.rentCat(2);
+	
+			// Mockito.verify(c2).rentCat();
+	
+			// assertTrue(result);
+	
+			// String expectedOutput = "Old Deuteronomy has been rented." + newline;
+			// assertEquals(expectedOutput, out.toString());
+	
+			// try {
+			// 	r.addCat(c1);
+			// 	r.addCat(c2);
+			// 	r.addCat(c3);
+		
+			// 	boolean result = r.rentCat(2);
+		
+			// 	Mockito.verify(c2).rentCat();  // Verify that rentCat method is called on c2
+		
+			// 	assertTrue(result);
+		
+			// 	String expectedOutput = "Old Deuteronomy has been rented." + newline;
+			// 	assertEquals(expectedOutput, out.toString());
+		
+			// } catch (Exception e) {
+			// 	fail();
+			// }
+		
+			
+	}
+
+	/**
+	 * Test case for boolean rentCat(int id).
+	 * 
+	 * <pre>
+	 * Preconditions: c1, c2, and c3 are added to r using addCat(Cat c).
+	 *                c2 is rented.
+	 * Execution steps: Call rentCat(2).
+	 * Postconditions: Return value is false.
+	 *                 c2 is not rented as a result of the execution steps.
+	 *                 System output is "Sorry, Old Deuteronomy is not here!" + newline
+	 * </pre>
+	 * 
+	 * Hint: You may need to use behavior verification for this one. See
+	 * sample_code/junit_example/LinkedListUnitTest.java in the course repository to
+	 * see examples.
+	 */
+	@Test
+	public void testRentCatFailureNumCats3() {
+		// TODO: Fill in
+		
+		
+			
+			// r.addCat(c1);
+			// r.addCat(c2);
+			// r.addCat(c3);
+		
+			// r.rentCat(2);
+		
+			// out.reset();
+		
+			// boolean result = r.rentCat(2);
+		
+			// if (c2 != null) {
+			// 	Mockito.verify(c2, Mockito.never()).rentCat();
+			// 	assertFalse(result);
+		
+			// 	String expectedOutput = "Sorry, Old Deuteronomy is not here!" + newline;
+			// 	assertEquals(expectedOutput, out.toString());
+			// } else {
+			// 	fail("Cat c2 is null");
+			// }
+			
+		}
+
+	/**
+	 * Test case for boolean returnCat(int id).
+	 * 
+	 * <pre>
+	 * Preconditions: c1, c2, and c3 are added to r using addCat(Cat c).
+	 *                c2 is rented.
+	 * Execution steps: Call returnCat(2).
+	 * Postconditions: Return value is true.
+	 *                 c2 is returned as a result of the execution steps.
+	 *                 System output is "Welcome back, Old Deuteronomy!" + newline
+	 * </pre>
+	 * 
+	 * Hint: You may need to use behavior verification for this one. See
+	 * sample_code/junit_example/LinkedListUnitTest.java in the course repository to
+	 * see examples.
+	 */
+	@Test
+	public void testReturnCatNumCats3() {
+		// TODO: Fill in
+		
+		// try {
+			
+		// 	r.addCat(c1);
+		// 	r.addCat(c2);
+		// 	r.addCat(c3);
+	
+			
+		// 	Mockito.when(c1.toString()).thenReturn("ID 1. Jennyanydots");
+		// 	Mockito.when(c2.toString()).thenReturn("ID 2. Old Deuteronomy");
+		// 	Mockito.when(c3.toString()).thenReturn("ID 3. Mistoffelees");
+	
+			
+		// 	r.rentCat(2);
+		// 	boolean returnResult = r.returnCat(2);
+	
+			
+		// 	Mockito.verify(c2).returnCat();
+	
+		
+		// 	assertTrue(returnResult);
+	
+		// 	String expectedOutput = "Welcome back, Old Deuteronomy!" + newline;
+		// 	assertEquals(expectedOutput, out.toString());
+	
+		// } catch (Exception e) {
+		// 	// Handle exceptions
+		// 	fail();
+		// }
+	}
+
+	/**
+	 * Test case for boolean returnCat(int id).
+	 * 
+	 * <pre>
+	 * Preconditions: c1, c2, and c3 are added to r using addCat(Cat c).
+	 * Execution steps: Call returnCat(2).
+	 * Postconditions: Return value is false.
+	 *                 c2 is not returned as a result of the execution steps.
+	 *                 System output is "Old Deuteronomy is already here!" + newline
+	 * </pre>
+	 * 
+	 * Hint: You may need to use behavior verification for this one. See
+	 * sample_code/junit_example/LinkedListUnitTest.java in the course repository to
+	 * see examples.
+	 */
+	@Test
+	public void testReturnFailureCatNumCats3() {
+		// TODO: Fill in
+		// try {
+			
+		// 	r.addCat(c1);
+		// 	r.addCat(c2);
+		// 	r.addCat(c3);
+	
+		// 	assertFalse(r.returnCat(2));
+	
+		// 	Mockito.verify(c2, Mockito.never()).returnCat();
+	
+		// 	String expectedOutput = "Old Deuteronomy is already here!" + newline;
+		// 	assertEquals(expectedOutput, out.toString());
+	
+		// } catch (Exception e) {
+		// 	// Handle exceptions
+		// 	fail();
+		// }
+	}
 
 }
