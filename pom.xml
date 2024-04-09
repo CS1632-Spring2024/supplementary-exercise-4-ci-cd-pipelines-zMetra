@@ -6,7 +6,7 @@
 
   <groupId>io.github.wonsunahn</groupId>
   <artifactId>cs1632-cicd-pipelines-ajg172</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
   <packaging>jar</packaging>
 
   <name>cs1632-cicd-junit</name>
@@ -38,7 +38,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://github.com/CS1632-Spring2024/supplementary-exercise-4-ci-cd-pipelines-zMetra</url>
+      <url>https://maven.pkg.github.com/CS1632-Spring2024/supplementary-exercise-4-ci-cd-pipelines-zMetra</url>
     </repository>
   </distributionManagement>
   <properties>
